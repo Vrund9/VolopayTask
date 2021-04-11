@@ -1,0 +1,90 @@
+body{
+    background-color: #333399;
+    font-family:tans;
+    color: #fff;
+}
+
+.MainBox{
+    border: 1px;
+    border-color: white;
+    border-style: solid;
+    margin: 40px 80px;
+}
+
+
+
+.section1 div{
+    width: 30%;
+    padding: 10px;
+}
+
+.section1 .FirstColumn{
+    flex: 2;
+}
+
+.section1 .SecondColumn{
+    flex: 1;
+}
+
+.section1 .ThirdColumn{
+    flex: 1;
+}
+
+
+
+.section2 div{
+    width: 22%;
+    padding: 10px;
+}
+
+.section2 .FourthColumn{
+    flex: 1;
+}
+
+.section2 .FiveColumn{
+    flex: 1;
+}
+
+.section2 .SixColumn{
+    flex: 1;
+}
+
+.section2 .SevenColumn{
+    flex: 1;
+}
+
+
+
+.section3 div{
+    width: 30%;
+    padding: 10px;
+}
+
+.section3 .EightColumn{
+    flex: 1;
+}
+
+.section3 .NineColumn{
+    flex: 1;
+}
+
+.section3 .TenColumn{
+    flex: 2;
+}
+
+@media(min-width:768px){
+    .section1{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .section2{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .section3{
+        display: flex;
+        justify-content: space-around;
+    }
+}
